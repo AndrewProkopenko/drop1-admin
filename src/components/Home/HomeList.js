@@ -30,12 +30,17 @@ function HomeList () {
     let [newServSlug, setNewServSlug] = React.useState('')
     let [newServPrice, setNewServPrice] = React.useState('')
     let [file, setFile] = React.useState('')
+
+    let [newMetaTitle, setNewMetaTitle] = React.useState('')
+    let [newMetaDesc, setNewMetaDesc] = React.useState('')
     
     React.useEffect( () => {
         axios.get('/main-list')
             .then( (response) => {  
                 setContent(response.content)
                 setServices(response.items)
+                setNewMetaTitle(response.meta.title)
+                setNewMetaDesc(response.meta.description)
             })
     }, []) 
 
@@ -63,6 +68,8 @@ function HomeList () {
         setFile(event.target.files[0])
     }
 
+     
+
     function hendleServiceAdd(e) {
         e.preventDefault()
 
@@ -88,6 +95,10 @@ function HomeList () {
         let sentData = { 
             "content": content,
             "items" : newServiceList, 
+            "meta": {
+                "title": newMetaTitle,
+                "description": newMetaDesc
+            }
         } 
          
         axios.put('/main-list', sentData)
@@ -106,6 +117,10 @@ function HomeList () {
         let sentData = {
             "content": content,
             "items" : filtered, 
+            "meta": {
+                "title": newMetaTitle,
+                "description": newMetaDesc
+            }
         } 
         setServices(filtered)
         axios.put('/main-list', sentData)
@@ -152,8 +167,11 @@ function HomeList () {
     function hendleButtonSave() { 
         const newData = { 
             "content": content, 
-            "items" : services
-            
+            "items" : services,
+            "meta": {
+                "title": newMetaTitle,
+                "description": newMetaDesc
+            }
         }
         axios.put("/main-list", newData)
             .then( () => {
@@ -162,14 +180,50 @@ function HomeList () {
     }
     return (
         <div> 
+             {
+                isSuccessSave &&
+                <Alert severity="success">Успешно сохранено!</Alert>
+            }
+            <Typography variant={"h6"}>Мета-данные для главной страницы</Typography> 
+            <Grid container spacing={3}>
+                <Grid item xs={12} lg={6} >
+                        <FormGroup> 
+                            <TextField type='text'
+                                    required
+                                    variant="outlined"
+                                    label='Введите TITLE'
+                                    value={newMetaTitle} 
+                                    onChange={(e)=>{  setIsSuccessSave(false);  setNewMetaTitle(e.target.value)}}
+                                    className={'mt-2'}
+                            />
+                            <TextField type='text'
+                                    required
+                                    variant="outlined"
+                                    label='Введите DESCRIPTION'
+                                    value={newMetaDesc} 
+                                    onChange={(e)=>{ setIsSuccessSave(false);   setNewMetaDesc(e.target.value)}}
+                                    className={'mt-2'}
+                            /> 
+                        </FormGroup>
+                        <Button
+                            type={'submit'}
+                            className={"mt-2 mb-3"}
+                            variant="contained"
+                            color="primary"
+                            size={'medium'}
+                            startIcon={<SaveIcon/>}
+                            onClick={hendleButtonSave}
+                        >
+                            Сохранить мета
+                        </Button>
+                </Grid>
+            </Grid>
+            <Divider/>
             <Grid container spacing={3}> 
                 <Grid item xs={12} lg={6} > 
                     <Typography variant={"h6"}>Наши преимущества</Typography> 
                      
-                    {
-                        isSuccessSave &&
-                        <Alert severity="success">Успешно сохранено!</Alert>
-                    }
+                   
                     <form 
                         onSubmit={hendleServiceAdd} 
                     >
@@ -235,6 +289,7 @@ function HomeList () {
                     </div> 
                 </Grid>
             </Grid>
+            <Divider/>
             <Grid container spacing={3}> 
                 <Grid item xs={12} lg={6} >
                     <Typography variant={'h6'}>
