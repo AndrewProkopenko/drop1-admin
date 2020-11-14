@@ -1,0 +1,178 @@
+{
+  "remont-kompyutepov": {
+    "title": "Ремонт компьютеров",
+    "slug": "remont-kompyutepov",
+    "meta": {
+      "title": "Ремонт компьютеров 12",
+      "description": "Авторизованный сервисный i t.d."
+    },
+    "content": "123",
+    "list-service-menu": [
+      {
+        "id": 1,
+        "title": "Ремонт блока питания компьютера",
+        "slug": "remont-bloka-pitaniya-kompyutera",
+        "content": "Ремонт блока питания компьютера",
+        "meta": {
+          "title": "Ремонт 1123312",
+          "description": "Авторизованный сервисный i t.d."
+        }
+      },
+      {
+        "title": "Ремонт видеокарты компьютера",
+        "slug": "remont-videokarty-kompyutera",
+        "id": 2,
+        "content": "",
+        "meta": {
+          "title": "Ремонт 2",
+          "description": "Авторизованный сервисный i t.d."
+        }
+      },
+      {
+        "id": 3,
+        "title": "Ремонт материнской платы",
+        "slug": "remont-materinskoj-platy-pk",
+        "content": "",
+        "meta": {
+          "title": "ыыва",
+          "description": "ываыва"
+        }
+      }
+    ],
+    "list-brands-menu": []
+  },
+  "remont-noutbukov": {
+    "title": "Ремонт ноутбуков",
+    "slug": "remont-noutbukov",
+    "content": "asd",
+    "meta": {
+      "title": "Ремонт 1123312",
+      "description": "Авторизованный сервисный i t.d."
+    },
+    "list-service-menu": [
+      {
+        "id": 1,
+        "title": "Чистка ноутбука от пыли",
+        "slug": "chistka-noutbuka-ot-pyli",
+        "content": "",
+        "meta": {
+          "title": "Ремонт 1123312",
+          "description": "Авторизованный сервисный i t.d."
+        }
+      }
+    ],
+    "list-brands-menu": [
+      {
+        "id": 1,
+        "title": "Ремонт ноутбуков Acer",
+        "slug": "remont-noutbukov-acer",
+        "content": "Введите текст для страницы \"Ремонт ноутбуков Acer\"",
+        "meta": {
+          "title": "Ремонт 1123312",
+          "description": "Авторизованный сервисный i t.d."
+        }
+      }
+    ]
+  },
+  "remont-monitorov": {
+    "title": "Ремонт мониторов",
+    "slug": "remont-monitorov",
+    "content": "",
+    "meta": {
+      "title": "Ремонт 1123312",
+      "description": "Авторизованный сервисный i t.d."
+    },
+    "list-service-menu": [
+      {
+        "id": 1,
+        "title": "Ремонт блока питания монитора",
+        "slug": "remont-bloka-pitaniya-monitora",
+        "content": "",
+        "meta": {
+          "title": "Ремонт 1123312",
+          "description": "Авторизованный сервисный i t.d."
+        }
+      }
+    ]
+  },
+  "nastrojka-po": {
+    "title": "Настройка ПО",
+    "slug": "nastrojka-po",
+    "content": "",
+    "meta": {
+      "title": "Ремонт 1123312",
+      "description": "Авторизованный сервисный i t.d."
+    },
+    "list-service-menu": [
+      {
+        "id": 1,
+        "title": "Установка OC WINDOWS",
+        "slug": "ustanovka-os-windows",
+        "content": "",
+        "meta": {
+          "title": "Ремонт 1123312",
+          "description": "Авторизованный сервисный i t.d."
+        }
+      }
+    ]
+  },
+  "contacts": {
+    "title": "Контакты",
+    "slug": "kontakty",
+    "content": "фыв",
+    "meta": {
+      "title": "Ремонт 1123312",
+      "description": "Авторизованный сервисный i t.d."
+    }
+  },
+  "meta": {
+    "main": {
+      "title": "Ремонт компьютеров и оргтехники в Пензе - АСЦ \"Сура-Сервис\"",
+      "description": "Авторизованный сервисный центр &quot;Сура-Сервис&quot; оказывает услуги по ремонту компьютеров, ноутбуков, принтеров, сканеров, МФУ.",
+      "name": "Главная"
+    },
+    "kontakty": {
+      "title": "Контакты",
+      "description": "Контакты",
+      "name": "Контакты"
+    },
+    "uslugi-remont-noutbukov": {
+      "title": "Ремонт ноутбуков {{macros}}",
+      "description": "Ремонт ноутбуков {{macros}}",
+      "name": "Ремонт ноутбуков (напишите ниже {{macros}} для подстановки. Далее {{macros}} будет заменен на бренд/услугу)"
+    }
+  },
+  "main-list": {
+    "content": "asd",
+    "items": [
+      {
+        "title": "Гарантийный ремонт",
+        "slug": "wewe",
+        "price": "123",
+        "img": "1.svg",
+        "id": 1
+      },
+      {
+        "title": "Ремонт компьютеров",
+        "slug": "we",
+        "price": "200",
+        "img": "2.svg",
+        "id": 2
+      },
+      {
+        "title": "qw",
+        "slug": "ww",
+        "price": "ww",
+        "img": "3.svg",
+        "id": 3
+      },
+      {
+        "title": "Преимущество 1",
+        "slug": "",
+        "price": "",
+        "img": "1.svg",
+        "id": 4
+      }
+    ]
+  }
+}
