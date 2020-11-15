@@ -36,6 +36,7 @@
     "json": "json-server --watch src/data/database.json --port 4545",
     "deleteapi": "del-cli --force ./api", 
     "copy": "copy-files-from-to",
+    "predeploy": "copy-files-from-to",
     "deploy": "git add . && git commit -m ",
     "postdeploy": "git push --all"
   },
