@@ -37,8 +37,8 @@
     "eject": "react-scripts eject",
     "json": "json-server --watch src/data/database.json --port 4545",
     "copy": "copy-files-from-to",
-    "predeploy": "copy-files-from-to",
-    "deploy": "git add . && git commit -m 'data deploy' && git push --all"
+    "deploy": "git add . && git commit -m ",
+    "postdeploy": "git push --all"
   },
   "eslintConfig": {
     "extends": [
