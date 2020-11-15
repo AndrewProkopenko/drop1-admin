@@ -31,7 +31,7 @@ function App() {
   
     React.useEffect(() => { 
         setToken(tokenStor)
-    }, []); 
+    }, []);  
 
     function setLogin() {
         setToken(true)
