@@ -1,4 +1,4 @@
-{ 
+{
   "name": "vice-app-admin",
   "version": "0.1.0",
   "private": true,
@@ -21,15 +21,22 @@
   "copyFiles": [
     {
       "from": "src/data/database.json",
-      "to": "build/data/database.json"
+      "to": "api/data/database.json"
+    },
+    {
+      "from": "public/images/*",
+      "to": "api/images"
     }
   ],
   "scripts": {
     "start": "react-scripts start",
+    "predeployapi": "del-cli --force ./api",
+    "deployapi": "react-scripts build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "json": "json-server --watch src/data/database.json --port 4545",
+    "copy": "copy-files-from-to",
     "predeploy": "copy-files-from-to",
     "deploy": "git add . && git commit -m 'data deploy' && git push --all"
   },
@@ -50,5 +57,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "del-cli": "^3.0.1"
   }
 }
