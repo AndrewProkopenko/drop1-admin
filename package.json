@@ -34,10 +34,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "json": "json-server --watch src/data/database.json --port 4545",
-    "prepredeploy": "del-cli --force ./api", 
+    "cleanapi": "del-cli --force ./api", 
     "copy": "copy-files-from-to",
-    "predeploy": "copy-files-from-to",
-    "deploy": "git add . && git commit -m ",
+    "predeploy": "npm run cleanapi",
+    "deploy": "copy-files-from-to && git add . && git commit -m ",
     "postdeploy": "git push --all"
   },
   "eslintConfig": {
