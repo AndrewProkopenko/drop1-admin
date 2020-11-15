@@ -29,7 +29,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "json": "json-server --watch src/data/database.json --port 4545"
+    "json": "json-server --watch src/data/database.json --port 4545",
+    "predeploy": "copy-files-from-to",
+    "deploy": "git add . && git commit -m 'data' && git push --all"
   },
   "eslintConfig": {
     "extends": [
