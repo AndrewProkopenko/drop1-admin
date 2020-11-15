@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/drop1-admin/static/css/main.257c1eb5.chunk.css",
+    "main.js": "/drop1-admin/static/js/main.8699be6c.chunk.js",
+    "main.js.map": "/drop1-admin/static/js/main.8699be6c.chunk.js.map",
+    "runtime-main.js": "/drop1-admin/static/js/runtime-main.43082d24.js",
+    "runtime-main.js.map": "/drop1-admin/static/js/runtime-main.43082d24.js.map",
+    "static/js/2.e2df82a7.chunk.js": "/drop1-admin/static/js/2.e2df82a7.chunk.js",
+    "static/js/2.e2df82a7.chunk.js.map": "/drop1-admin/static/js/2.e2df82a7.chunk.js.map",
+    "static/js/3.f2dc159c.chunk.js": "/drop1-admin/static/js/3.f2dc159c.chunk.js",
+    "static/js/3.f2dc159c.chunk.js.map": "/drop1-admin/static/js/3.f2dc159c.chunk.js.map",
+    "index.html": "/drop1-admin/index.html",
+    "static/css/main.257c1eb5.chunk.css.map": "/drop1-admin/static/css/main.257c1eb5.chunk.css.map",
+    "static/js/2.e2df82a7.chunk.js.LICENSE.txt": "/drop1-admin/static/js/2.e2df82a7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43082d24.js",
+    "static/js/2.e2df82a7.chunk.js",
+    "static/css/main.257c1eb5.chunk.css",
+    "static/js/main.8699be6c.chunk.js"
+  ]
+}
