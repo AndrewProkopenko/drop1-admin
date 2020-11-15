@@ -44,8 +44,10 @@ function Pages() {
             fontWeight: 700
         },
         unsave: {
+            display:'block',
             color: theme.palette.error.main, 
-            marginLeft: 16
+            marginLeft: 16,
+            marginTop: 15
         }, 
        
         meta: { 
@@ -55,11 +57,19 @@ function Pages() {
             paddingTop: 10,
             paddingBottom: 20,
             border: `2px solid ${theme.palette.success.light}`, 
+        },
+        input: {
+            display: 'none',
+        },
+        label: { 
+            display: 'flex',
+            alignItems: 'center' ,
+            margin: "0 1em 0 0"
         }
       }));
     const classes = useStyles();
 
-    const {page} = useParams()
+    const {category} = useParams()
  
     let [metaTitle, setMetaTitle] = React.useState('')
     let [metaDesc, setMetaDesc] = React.useState('')
@@ -67,7 +77,8 @@ function Pages() {
     let [heading, setHeading] = React.useState('') 
     let [title, setTitle] = React.useState('') 
     let [content, setContent] = React.useState('')   
-    let [slug, setSlug] = React.useState('')   
+    let [slug, setSlug] = React.useState('')    
+    let [file, setFile] = React.useState('')
     let [listServices, setListServices] = React.useState('')   
     let [newServiceTitle, setNewServiceTitle] = React.useState('')   
     let [newServiceSlug, setNewServiceSlug] = React.useState('')   
@@ -80,7 +91,10 @@ function Pages() {
     let [isUnsavedService, setIsUnsavedService] = React.useState(false)
     let [isUnsavedBrand, setIsUnsavedBrand] = React.useState(false)
     let [isUnsavedMeta, setIsUnsavedMeta] = React.useState(false)
+    let [isUnSaveFile, setIsUnSaveFile] = React.useState(false)
      
+    
+    document.title = metaTitle
  
     function usePageViews() {
         let location = useLocation(); 
@@ -88,7 +102,7 @@ function Pages() {
              
 
             setIsSuccessSave(false)
-            axios.get(`${page}`)
+            axios.get(`${category}`)
                 .then(
                     response => { 
                         console.log(response) 
@@ -98,6 +112,7 @@ function Pages() {
                         setTitle(response.title)
                         setHeading(response.title)  
                         setSlug(response.slug)
+                        setFile(response.img)
                         setListServices(response['list-service-menu'])
                         if(response['list-brands-menu']) {
                             setListBrands(response['list-brands-menu'])
@@ -142,7 +157,11 @@ function Pages() {
             "title": newBrandsTitle,
             "slug": newBrandsSlug, 
             "id": newId, 
-            "content": ""
+            "content": "",
+            "meta": {
+                "title": "", 
+                "description": ""
+            }
         }
         newList.push(newItem)
 
@@ -187,12 +206,13 @@ function Pages() {
 
         setNewServiceSlug('')
         setNewServiceTitle('')
-    }
+    } 
      
     function hendleButtonSave() {  
         const newData = {
             "title": title,
             "slug": slug, 
+            "img": file,
             "meta": {
                 "title": metaTitle,
                 "description" : metaDesc
@@ -202,12 +222,19 @@ function Pages() {
             "list-brands-menu":  listBrands
         }
         // console.log(newData)
-        axios.put(`/${page}`, newData)
+        axios.put(`/${category}`, newData)
             .then( () => {
                 setIsSuccessSave(true)
                 setIsUnsavedService(false)
                 setIsUnsavedBrand(false)
                 setIsUnsavedMeta(false)
+                setIsUnSaveFile(false)
+            })
+            .then(()=>{
+                window.scrollTo({
+                    top: 0, 
+                    behavior: "smooth"
+                });
             })
     }
 
@@ -276,6 +303,8 @@ function Pages() {
                 </FormGroup>
                 
                 </form>
+
+                
                 {
                     isUnsavedService && <h5 className={classes.unsave}>Не забудьте сохранить</h5>
                 }
@@ -386,12 +415,33 @@ function Pages() {
             <Grid container>
                 <Grid item lg={6}>
                     <Typography variant={'h6'}>
-                        Введите текст для страницы "{heading}"
+                        Введите текст для страницы "{title}"
                     </Typography>
                     {
                         isSuccessSave &&
                         <Alert severity="success">Успешно сохранено!</Alert>
                     }
+                    <FormGroup row>
+                        <TextField  type='text'
+                                    required
+                                    variant="outlined"
+                                    label='Введите название страницы'
+                                    value={title}
+                                    name='title'
+                                    onChange={handleInputTitle}  
+                                    className={'mt-2 mr-2 flex-grow-1'}
+                        />
+                        <TextField  type='text'
+                                    required
+                                    variant="outlined"
+                                    label='Введите slug страницы'
+                                    value={slug}
+                                    name='title'
+                                    onChange={handleInputSlug}  
+                                    className={'mt-2'}
+                        /> 
+                        
+                    </FormGroup>
                     <FormGroup>
                         <TextField  type='text'
                                     required
@@ -405,27 +455,40 @@ function Pages() {
                                     className={'mt-2'}
                         /> 
                     </FormGroup>
-                    <FormGroup row>
-                        <TextField  type='text'
-                                    required
-                                    variant="outlined"
-                                    label='Введите название страницы'
-                                    value={title}
-                                    name='title'
-                                    onChange={handleInputTitle}  
-                                    className={'mt-2 mr-2'}
-                        />
-                        <TextField  type='text'
-                                    required
-                                    variant="outlined"
-                                    label='Введите slug страницы'
-                                    value={slug}
-                                    name='title'
-                                    onChange={handleInputSlug}  
-                                    className={'mt-2'}
-                        /> 
-                        
+                      {/* images */}
+                      <FormGroup row className='mt-2'>   
+                            <input
+                                accept="image/svg+xml"
+                                className={classes.input}
+                                id="contained-button-file" 
+                                type="file"
+                                onChange={(e) => { setIsUnSaveFile(true); setFile(e.target.files[0].name) }} 
+                            />
+                            <label htmlFor="contained-button-file" className={classes.label}>
+                                <Button variant="outlined"  color='info' component="div">
+                                    Выбрать картинку
+                                </Button>
+                            </label>
+                            {
+                                file !== '' ?
+                                (<h6 className={classes.label}>Выбрано: {file} </h6>) :
+                                <span>Примечание: для выбора картинки <br/> доступен только формат svg</span>
+                            }
+                            {
+                                file.length > 0 &&
+                                <Button 
+                                    variant="outlined"  
+                                    color='secondary' 
+                                    component="div"
+                                    onClick={() => { setFile('') }}
+                                >
+                                    Удалить картинку
+                                </Button>
+                            }
+                             
                     </FormGroup>
+                    {isUnSaveFile && <div className={classes.unsave}>Картинку после добавления нужно сохранить кнопкой внизу</div>}
+                    
                     
                     {
                         renderServices()
@@ -434,6 +497,8 @@ function Pages() {
                     {
                         renderBrands()
                     }
+
+                  
 
                     {
                         renderMeta()

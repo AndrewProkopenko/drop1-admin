@@ -19,6 +19,15 @@ code {
     padding: 30px 20px;
 }
 
+.sidebar-btn { 
+    position: fixed !important;
+    top: 15px;
+    left: 10px;
+    z-index: 999; 
+    padding: 12px !important; 
+    background: rgb(255, 255, 255) !important;
+}
+
 .sidebar { 
     min-width: 350px;
 }
@@ -33,6 +42,9 @@ code {
 
 .ml-1 {
     margin-left: 0.5em !important;
+}
+.ml-60 {
+    margin-left: 60px !important;
 }
 .mb-0 {
     margin-bottom: 0 !important;
@@ -53,9 +65,10 @@ code {
 .pl-5 {
     padding-left: 3em !important;
 }
+
 .pb-3 {
     padding-bottom: 1.5em !important;
-}
+} 
 .flex-grow-1 {
     flex-grow: 1;
 }

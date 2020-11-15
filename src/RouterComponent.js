@@ -9,16 +9,15 @@ import Services from "./components/Services(Uslugi)/Services";
 import Pages from "./components/Services(Uslugi)/Pages";
 import InnerPages from "./components/Services(Uslugi)/InnerPages";
 
-function RouterComponent () {
+import Login from "./Login";
+
+function RouterComponent () { 
     return (
         <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/prefixes" component={Prefixes}  /> 
-            <Route exact path="/content/content-remont-noutbukov" component={Laptops}  />
+            
+            <Route exact path="/" component={Home} /> 
 
-            <Route exact path="/content/uslugi" component={Services}  />
-
-            <Route exact path="/content/pages/:page" component={Pages}  />
+            <Route exact path="/content/pages/:category" component={Pages}  />
 
             <Route exact path="/content/inner-pages/:category/:page" component={InnerPages}  />
 

@@ -1,5 +1,6 @@
 import React from "react";
-import axios from '../libs/axios'
+// import axios from '../libs/axios'
+import axios from 'axios'
 import {NavLink} from "react-router-dom";
 
 import { ExpandLess, ExpandMore } from '@material-ui/icons'
@@ -15,19 +16,25 @@ function Sidebar() {
     const [openPO, setOpenPO] = React.useState(false);  
   
 
-    React.useEffect(() => {  
-        axios.get(`/`)
-            .then(
-                response => { 
-                    console.log(response)  
-                }
-            ) 
-    }, []);
+    // React.useEffect(() => {  
+    //     fetchSidebarData()
+    // }, []); 
 
-
+    // function fetchSidebarData() {
+    //     axios.get('http://localhost:4545/')
+    //     .then(
+    //         response => { 
+    //             console.log(response)  
+    //         }
+    //     ) 
+    // }
+ 
     return (
  
         <List >
+ 
+
+
             <NavLink exact to='/'>
                 <ListItem button>
                     <ListItemText primary={'Главная '}/>

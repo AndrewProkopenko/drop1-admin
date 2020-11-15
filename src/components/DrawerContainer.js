@@ -2,6 +2,8 @@ import React from 'react';
 import Drawer from '@material-ui/core/Drawer';
 import Button from '@material-ui/core/Button'; 
 import ListIcon from '@material-ui/icons/List';
+import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
 
 
 import Sidebar from "./Sidebar"; 
@@ -28,24 +30,26 @@ export default function TemporaryDrawer() {
   );
 
   return (
-    <div>
+    <React.Fragment>
       {['left'].map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button 
+          <IconButton 
+              aria-label="add an alarm" 
               onClick={toggleDrawer(anchor, true) }
-              variant="contained"
-              size='large'
+              // variant="contained"
+              size='medium'
               color={"primary"}
-              startIcon={<ListIcon/>}
-          >
-            Меню 
-          </Button>
+              startIcon={<MenuIcon/>}
+              className={'sidebar-btn'}
+          >  <MenuIcon fontSize='large'/>
+          </IconButton>
+            
           <Drawer anchor={anchor} open={state[anchor]} onClose={toggleDrawer(anchor, false)}>
             {list(anchor)}
           </Drawer>
         </React.Fragment>
       ))}
-    </div> 
+    </React.Fragment> 
   );
 }
  

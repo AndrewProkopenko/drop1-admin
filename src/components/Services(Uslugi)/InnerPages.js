@@ -34,7 +34,11 @@ function InnerPages() {
             paddingTop: 10,
             paddingBottom: 20,
             border: `2px solid ${theme.palette.success.light}`, 
-        }
+        },
+        unsave: {
+            color: theme.palette.error.main, 
+            marginLeft: 16
+        }, 
       }));
     const classes = useStyles();
 
@@ -57,6 +61,16 @@ function InnerPages() {
 
     let [isSuccessSave, setIsSuccessSave] = React.useState(false)
     let [isUnsavedMeta, setIsUnsavedMeta] = React.useState(false)
+
+    document.title = metaTitle
+    
+    let ccc = React.createElement('div', null, content);
+
+    function renderContent() { 
+        let text = document.getElementById('content')
+        console.log(text)
+    }
+    renderContent()
 
     function usePageViews() {
         let location = useLocation(); 
@@ -124,7 +138,8 @@ function InnerPages() {
             "title": basicData.title,
             "slug": basicData.slug,
             "content": basicData.content,
-            "meta": basicData.meta
+            "meta": basicData.meta,
+            "img": basicData.img
         }
         // newData новый элемент, тот который только что правили
         let newData = {
@@ -162,13 +177,19 @@ function InnerPages() {
             .then( () => {
                 setIsSuccessSave(true) 
             })
+            .then(()=>{
+                window.scrollTo({
+                    top: 0, 
+                    behavior: "smooth"
+                });
+            })
     }
 
     
     function renderMeta() {
         return <div className={classes.meta}>
              <Typography variant='div' className={classes.heading}>
-                Мета-данные для страницы "{data.title}"
+                Мета-данные для страницы "{newTitle}"
             </Typography> 
             <FormGroup>
                 <TextField  type='text'
@@ -202,12 +223,30 @@ function InnerPages() {
             <Grid container>
                 <Grid item lg={6}>
                     <Typography variant={'h6'}>
-                        Введите текст для страницы "{data.title}"
+                        Введите текст для страницы "{newTitle}"
                     </Typography>
                     {
                         isSuccessSave &&
                         <Alert severity="success">Успешно сохранено!</Alert>
                     }
+                    <FormGroup row>
+                        <TextField  type='text'
+                                    required
+                                    variant="outlined"
+                                    label='Добавьте название страницы'
+                                    value={newTitle} 
+                                    onChange={(e) => { setNewTitle(e.target.value)  }}  
+                                    className={'mt-2 mr-2 flex-grow-1'}
+                        />
+                        <TextField  type='text'
+                                    required
+                                    variant="outlined"
+                                    label='Добавьте slug страницы'
+                                    value={newSlug} 
+                                    onChange={(e) => { setNewSlug(e.target.value)  }}  
+                                    className={'mt-2 '}
+                        />   
+                    </FormGroup>
                     <FormGroup>
                         <TextField  type='text'
                                     required
@@ -221,26 +260,7 @@ function InnerPages() {
                                     className={'mt-2'}
                         /> 
                     </FormGroup>
-                    <FormGroup row>
-                    <TextField  type='text'
-                                required
-                                variant="outlined"
-                                label='Добавьте название страницы'
-                                value={newTitle} 
-                                onChange={(e) => { setNewTitle(e.target.value)  }}  
-                                className={'mt-2 mr-2 flex-grow-1'}
-                    />
-                    <TextField  type='text'
-                                required
-                                variant="outlined"
-                                label='Добавьте slug страницы'
-                                value={newSlug} 
-                                onChange={(e) => { setNewSlug(e.target.value)  }}  
-                                className={'mt-2 '}
-                    /> 
                     
-                    
-                    </FormGroup>
                     
                     {
                         renderMeta()
@@ -264,7 +284,11 @@ function InnerPages() {
                     <div className='preview-container ml-1'>
                         <h3 className='preview-head'>Превью :</h3>
                         <Divider/>
-                        <div dangerouslySetInnerHTML={{__html: data.content}}></div> 
+                        <div>{ccc}</div>
+                        
+                        
+                         
+                        <div id='content' dangerouslySetInnerHTML={{__html: content}}></div> 
                     </div> 
                 </Grid>
             </Grid>

@@ -1,30 +1,23 @@
 import React from 'react'
 
-import HomeList from "./HomeList"
-import HomeAdv from "./HomeAdv"
-import HomeReviews from "./HomeReviews"
+import HomeList from "./HomeList" 
 
 import {
-    Divider,
-    Button,
+    Divider, 
 
 } from '@material-ui/core';
   
 function Home() {
-    
+
+    document.title = "Главная" 
+
     return (
             <div> 
                 {/* преимущества */}
                 <HomeList/>
                 
                 <Divider/>
-
-{/*                 
-                <HomeAdv/>
-                
-                <Divider/>
-
-                <HomeReviews/>    */}
+ 
             </div>
     )
 }

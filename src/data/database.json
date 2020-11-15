@@ -2,11 +2,12 @@
   "remont-kompyutepov": {
     "title": "Ремонт компьютеров",
     "slug": "remont-kompyutepov",
+    "img": "2.svg",
     "meta": {
-      "title": "Ремонт компьютеров 12",
-      "description": "Авторизованный сервисный i t.d."
+      "title": "Ремонт компьютеров",
+      "description": "Авторизованный сервисны"
     },
-    "content": "123",
+    "content": "\n\t\t\n\t\t\t\t\t\t\t\t\t<div itemprop=\"articleBody\">\n\t\t\t</div>\n\n\t\n\t\t\t\t\t\t\t</div>\n</div></section></div>\n</div></div></section><section id=\"tz-position2-wrapper\"\n                class=\"gry-bg \"><div class=\"container\"><div class=\"row\" id=\"position2\">\n<div id=\"tz-position-2\" class=\"col-lg-12 col-md-12 col-sm-12 col-xs-12 \"><div class=\"tz-module modulepd50 \" id=\"Mod341\"><div class=\"module-inner\"><h1 class=\"module-title block-head\">Ремонт компьютеров</h1><div class=\"module-ct\">\n\n<div class=\"custompd50\"  >\n\t<p><strong>Ремонт компьютеров (ПК)</strong> – это технически сложный процесс, который следует доверить профильным специалистам. <strong>Попытки самостоятельно провести диагностику и устранить неисправность</strong> в подавляющем большинстве случаев не только не приносят желаемых результатов, но и <strong>могут обернуться различными проблемами</strong>, начиная от поломки других модулей компьютера и заканчивая доведением техники до полной непригодности к ремонту. Наши специалисты могут быстро и качественно осуществить ремонт ПК как в сервисном центре так и у вас на дому в Киеве.</p>\n<div class=\"row slogan-style\">\n<div class=\"col-md-8\">\n<div class=\"left-slogan\">Диагностика компьютера - БЕСПЛАТНО*<br />При оформлении онлайн-заявки - скидка 5%</div>\n</div>\n<div class=\"col-md-4\">\n<div class=\"right-slogan\"><a href=\"/remont-kompyutepov/tipichnye-neispravnosti\" class=\"tpn-button\">Типичные неисправности</a></div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-4 \">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-kompyutepov/remont-bloka-pitaniya-kompyutera\">Ремонт блока питания компьютера</a></div>\n<div class=\"usluga-price\">от 500 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n<div class=\"col-md-4\">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-kompyutepov/remont-videokarty-kompyutera\">Ремонт видеокарты компьютера</a></div>\n<div class=\"usluga-price\">от 200 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\"> Заказать</a></div>\n</div>\n<div class=\"col-md-4 \">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-kompyutepov/remont-materinskoj-platy-pk\">Ремонт материнской платы в компьютере</a></div>\n<div class=\"usluga-price\">от 350 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n</div>\n<div class=\"row\"><!-- <div class=\"col-md-4 usluga-margin\">\n        <div class=\"usluga\">\n            <div class=\"usluga-title\"><a href=\"/remont-kompyutepov/remont-zhestkogo-diska-kompyutera\">Ремонт жесткого диска компьютера</a></div>\n            <div class=\"usluga-price\">от 150 грн</div>\n            <a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a>\n        </div>\n    </div> -->\n<div class=\"col-md-4 usluga-margin\">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-kompyutepov/remont-zvukovoj-karty-kompyutera\">Ремонт звуковой карты компьютера</a></div>\n<div class=\"usluga-price\">от 200 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\"> Заказать</a></div>\n</div>\n<div class=\"col-md-4 usluga-margin\">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-kompyutepov/modernizatsiya-kompyutera\">Модернизация <br /> компьютера</a></div>\n<div class=\"usluga-price\">от 150 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\"> Заказать</a></div>\n</div>\n<div class=\"col-md-4 usluga-margin\">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-kompyutepov/chistka-i-profilaktika-pk\">Чистка и профилактика ПК</a></div>\n<div class=\"usluga-price\">от 300 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-4\">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-kompyutepov/remont-raz-emov-pitaniya-pk\">Ремонт разъемов питания ПК</a></div>\n<div class=\"usluga-price\">от 200 грн</div>",
     "list-service-menu": [
       {
         "id": 1,
@@ -37,6 +38,16 @@
           "title": "ыыва",
           "description": "ываыва"
         }
+      },
+      {
+        "title": "Ремонт звуковой карты компьютера",
+        "slug": "remont-zvukovoj-karty-kompyutera",
+        "id": 4,
+        "content": "",
+        "meta": {
+          "title": "",
+          "description": ""
+        }
       }
     ],
     "list-brands-menu": []
@@ -44,20 +55,31 @@
   "remont-noutbukov": {
     "title": "Ремонт ноутбуков",
     "slug": "remont-noutbukov",
-    "content": "asd",
+    "content": "<div class=\"custompd50\"  >\n\t<p>Ремонт ноутбуков специалистами Компьютерного сервиса it911 - это <strong>профессиональный подход и всегда отличный результат</strong>. Высокая квалификация наших мастеров, многолетний опыт работы и доскональное знание технической стороны вопроса позволяют нам проводить ремонт и обслуживание ноутбуков любого производителя в <strong>максимально короткие сроки с гарантией качества</strong>.</p>\n<div class=\"row slogan-style\">\n<div class=\"col-md-8\">\n<div class=\"left-slogan\">Диагностика ноутбука - БЕСПЛАТНО*<br />При оформлении онлайн-заявки - скидка 5%</div>\n</div>\n<div class=\"col-md-4\">\n<div class=\"right-slogan\"><a href=\"/remont-noutbukov/tipichnye-neispravnosti\" class=\"tpn-button\">Типичные неисправности</a></div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-4 \">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-noutbukov/chistka-noutbuka-ot-pyli\">Чистка ноутбука <br />от пыли</a></div>\n<div class=\"usluga-price\">от 300 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n<div class=\"col-md-4\">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-noutbukov/remont-zalitogo-noutbuka\">Ремонт <br />залитого ноутбука</a></div> \n<div class=\"usluga-price\">от 400 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\"> Заказать</a></div>\n</div>\n<div class=\"col-md-4 \">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-noutbukov/remont-materinskoj-platy-noutbuka\">Ремонт материнской платы ноутбука</a></div>\n<div class=\"usluga-price\">от 700 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-4 usluga-margin\">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-noutbukov/remont-matritsy-noutbuka\">Ремонт <br />матрицы ноутбука</a></div>\n<div class=\"usluga-price\">от 200 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n<div class=\"col-md-4 usluga-margin\">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-noutbukov/remont-bloka-pitaniya-noutbuka\">Ремонт <br />блока питания ноутбука</a></div>\n<div class=\"usluga-price\">от 250 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\"> Заказать</a></div>\n</div>\n<div class=\"col-md-4\">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-noutbukov/zamena-klaviatury-noutbuka\">Замена <br /> клавиатуры ноутбука</a></div>\n<div class=\"usluga-price\">от 150 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\"> Заказать</a></div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-4 \">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-noutbukov/remont-i-zamena-shlejfa-noutbuka\">Ремонт и замена <br />шлейфа ноутбука</a></div>\n<div class=\"usluga-price\">от 350 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n<div class=\"col-md-4\">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-noutbukov/remont-i-zamena-privoda-noutbuka\">Ремонт и замена <br />привода ноутбука</a></div>\n<div class=\"usluga-price\">от 100 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\"> Заказать</a></div>\n</div>\n<div class=\"col-md-4 \">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-noutbukov/remont-i-zamena-raz-ema-noutbuka\">Ремонт и замена <br /> разъема ноутбука</a></div>\n<div class=\"usluga-price\">от 300 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-4 \">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-noutbukov/zamena-dinamikov-noutbuka\">Замена <br />динамиков ноутбука</a></div>\n<div class=\"usluga-price\">от 300 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n</div>\n<div id=\"myModal\" class=\"modal fade\">\n<div class=\"modal-dialog\">\n<div class=\"modal-content\">\n<div class=\"modal-header\"><button type=\"button\" class=\"close\" data-dismiss=\"modal\">×</button>\n<h4 class=\"modal-title\">Отправьте нам заявку</h4>\n</div>\n<div class=\"modal-body\">\n<p><form method=\"post\"  id=\"userForm\" class=\"formResponsive\" enctype=\"multipart/form-data\" action=\"https://it911.kiev.ua/remont-noutbukov\"><div id=\"rsform_error_5\" style=\"display: none;\"><p class=\"formRed\">Please complete all required fields!</p></div>\n<!-- Do not remove this ID, it is used to identify the page so that the pagination script can work correctly -->\n<fieldset class=\"formHorizontal formContainer\" id=\"rsform_5_page_0\">\n\t<div class=\"rsform-block rsform-block-name\">\n\t\t<div class=\"formControlLabel\"><strong class=\"formRequired\">(*)</strong></div>\n\t\t<div class=\"formControls\">\n\t\t<div class=\"formBody\"><input type=\"text\" value=\"\" size=\"20\"  name=\"form[name]\" id=\"name\" placeholder=\"* Ваше имя\" class=\"rsform-input-box\"/><span class=\"formValidation\"><span id=\"component29\" class=\"formNoError\">Вы не указали Ваше имя! Заполните пожалуйста это поле.</span></span></div>\n\t\t<p class=\"formDescription\"></p>\n\t\t</div>\n\t</div>\n\t<div class=\"rsform-block rsform-block-phone\">\n\t\t<div class=\"formControlLabel\"><strong class=\"formRequired\">(*)</strong></div>\n\t\t<div class=\"formControls\">\n\t\t<div class=\"formBody\"><input type=\"text\" value=\"\" size=\"20\"  name=\"form[phone]\" id=\"phone\" placeholder=\"* Ваш телефон\" class=\"rsform-input-box\"/><span class=\"formValidation\"><span id=\"component30\" class=\"formNoError\">Вы не указали Ваш номер телефона! Заполните пожалуйста это поле.</span></span></div>\n\t\t<p class=\"formDescription\"></p>\n\t\t</div>\n\t</div>\n\t<div class=\"rsform-block rsform-block-email\">\n\t\t<div class=\"formControlLabel\"></div>\n\t\t<div class=\"formControls\">\n\t\t<div class=\"formBody\"><input type=\"text\" value=\"\" size=\"20\"  name=\"form[Email]\" id=\"Email\" Placeholder=\"Email\" class=\"rsform-input-box\"/><span class=\"formValidation\"><span id=\"component41\" class=\"formNoError\">Вы не правильно написали адрес Вашeй почты!</span></span></div>\n\t\t<p class=\"formDescription\"></p>\n\t\t</div>\n\t</div>\n\t<div class=\"rsform-block rsform-block-pagetitle\">\n\t\t<div class=\"formControlLabel\"></div>\n\t\t<div class=\"formControls\">\n\t\t<div class=\"formBody\"><input type=\"hidden\" name=\"form[pagetitle]\" id=\"pagetitle\" value=\"\"  /><span class=\"formValidation\"></span></div>\n\t\t<p class=\"formDescription\"></p>\n\t\t</div>\n\t</div>\n\t<div class=\"rsform-block rsform-block-send\">\n\t\t<div class=\"formControlLabel\"></div>\n\t\t<div class=\"formControls\">\n\t\t<div class=\"formBody\"><input type=\"submit\" value=\"Отправить\" name=\"form[send]\" id=\"send\"  class=\"rsform-submit-button\" /><span class=\"formValidation\"></span></div>\n\t\t<p class=\"formDescription\"></p>\n\t\t</div>\n\t</div>\n\t<div class=\"rsform-block rsform-block-form-name\">\n\t\t<div class=\"formControlLabel\"></div>\n\t\t<div class=\"formControls\">\n\t\t<div class=\"formBody\"><input type=\"hidden\" name=\"form[form_name]\" id=\"form_name\" value=\"\"  /><span class=\"formValidation\"></span></div>\n\t\t<p class=\"formDescription\"></p>\n\t\t</div>\n\t</div>\n</fieldset>\n<input type=\"hidden\" name=\"form[formId]\" value=\"5\"/></form><script type=\"text/javascript\">var rsfp_ajax_root = '';</script><script type=\"text/javascript\">rsfp_addEvent(window, 'load', function(){var form = rsfp_getForm(5); form.onsubmit = ajaxValidation;});</script><script type=\"text/javascript\">ajaxExtraValidationScript[5] = function(task, formId, data) {var formComponents = {};formComponents[29]='name';formComponents[30]='phone';formComponents[41]='Email';if (task == 'afterSend') {\n\t\tvar ids = data.response[0].split(',');\n\t\tfor (var i=0; i<ids.length; i++) {\n\t\t\tvar id = parseInt(ids[i]);\n\t\t\tif (!isNaN(id) && typeof formComponents[id] != 'undefined') {\n\t\t\t\tvar formComponent = rsfp_getFieldsByName(formId, formComponents[id]);\n\t\t\t\tif (formComponent && formComponent.length > 0) {\n\t\t\t\t\tfor (var j=0; j<formComponent.length; j++) {\n\t\t\t\t\t\tif (formComponent[j]) {\n\t\t\t\t\t\t\tformComponent[j].className = formComponent[j].className.replace(' rsform-error', '');\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t\tvar ids = data.response[1].split(',');\n\t\tfor (var i=0; i<ids.length; i++) {\n\t\t\tvar id = parseInt(ids[i]);\n\t\t\tif (!isNaN(id) && typeof formComponents[id] != 'undefined') {\n\t\t\t\tvar formComponent = rsfp_getFieldsByName(formId, formComponents[id]);\n\t\t\t\tif (formComponent && formComponent.length > 0) {\n\t\t\t\t\tfor (var j=0; j<formComponent.length; j++) {\n\t\t\t\t\t\tif (formComponent[j]) {\n\t\t\t\t\t\t\tformComponent[j].className = formComponent[j].className.replace(' rsform-error', '') + ' rsform-error';\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t\t}\n}</script></p>\n</div>\n</div>\n</div>\n</div>\n<p>*Диагностика производится бесплатно при дальнейшем выполнении ремонтных работ. <br />В случае отказа от выполнения работы диагностика и выезд оплачивается в размере 200,00 грн.</p>\n<h2>Почему стоит доверить ремонт ноутбуков нашим специалистам?</h2>\n<p>Ноутбук – это технически сложное устройство, поэтому в случае возникновения неисправностей, не стоит пытаться устранить поломку самостоятельно. Даже простую, на первый взгляд, процедуру чистки ноутбука от пыли лучше доверить профессионалам, так как аккуратно вскрыть корпус устройства в большинстве случаев без специальных инструментов проблематично.</p>\n<p>Неквалифицированное вмешательство в конструкцию ноутбука в лучшем случае закончится ничем (неисправность как была, так и осталась), а в худшем – полной непригодностью устройства к дальнейшему ремонту. Стоит ли так рисковать, если можно доверить ремонт или обслуживание ноутбука специалистам Компьютерного сервиса it911?</p>\n<p>Наш сервисный центр по ремонту ноутбуков предоставляет широкий спектр услуг, начиная от профилактической чистки и заканчивая восстановительными работами любого уровня сложности с заменой комплектующих. Кроме того, мы выполняем апгрейд старой аппаратной части (замена винчестера, увеличение памяти, установка SSD диска вместо оптического привода), устанавливаем и настраиваем ПО.</p>\n<p>Мы осуществляем быстрый ремонт ноутбуков в Киеве в нашем сервисном центре или на дому у клиента. Наши специалисты проведут профессиональную диагностику вашего ноутбука, выявят неисправность и устранят ее в максимально короткие сроки. Если ремонт будет осуществляться мастерами нашего сервисного центра – диагностика проводится бесплатно.</p>\n<div class=\"row\">\n<div class=\"col-md-4 \">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-noutbukov/remont-noutbukov-acer\">Ремонт ноутбуков <br />Acer</a></div>\n<div class=\"usluga-price\">от 300 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n<div class=\"col-md-4 \">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-noutbukov/remont-apple-macbook\">Ремонт Apple <br />Macbook</a></div>\n<div class=\"usluga-price\">от 300 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n<div class=\"col-md-4 \">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-noutbukov/remont-noutbukov-asus\">Ремонт ноутбуков <br />Asus</a></div>\n<div class=\"usluga-price\">от 300 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-4 \">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-noutbukov/remont-noutbukov-dell\">Ремонт ноутбуков <br />Dell</a></div>\n<div class=\"usluga-price\">от 300 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n<div class=\"col-md-4 \">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-noutbukov/remont-noutbukov-hp\">Ремонт ноутбуков HP <br />Hewlett Packard</a></div>\n<div class=\"usluga-price\">от 300 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n<div class=\"col-md-4 \">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-noutbukov/remont-noutbukov-lenovo\">Ремонт ноутбуков <br />Lenovo</a></div>\n<div class=\"usluga-price\">от 300 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-4 \">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-noutbukov/remont-noutbukov-samsung\">Ремонт ноутбуков <br />Samsung</a></div>\n<div class=\"usluga-price\">от 300 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n<div class=\"col-md-4 \">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/remont-noutbukov/remont-noutbukov-sony\">Ремонт ноутбуков <br />Sony</a></div>\n<div class=\"usluga-price\">от 300 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n</div>\n<div class=\"clearfix\">&nbsp;</div>\n<h2>Преимущества нашего сервис центра по ремонту ноутбуков</h2>\n<p>Обращаясь к услугам наших специалистов, вы получаете следующие преимущества:</p>\n<ul class=\"list prim list-ok\">\n<li>Фиксированные низкие цены на ремонт ноутбуков.</li>\n<li>Использование оригинальных комплектующих или качественных сертифицированных аналогов.</li>\n<li>Срочный ремонт ноутбуков с выездом мастера в течение часа после принятия заявки.</li>\n<li>Выполнение работ любого уровня сложности вне зависимости от марки ноутбука и года его выпуска.</li>\n<li>Возможность выбора удобного способа оплаты.</li>\n<li>Ремонт ноутбуков всех известных брендов: Asus, Acer, HP (Hewlett-Packard), Sony, Samsung, Lenovo, Dell, MSI,</li>\n<li>Гарантия на все выполненные работы.</li>\n</ul>\n<div class=\"row\">\n<div class=\"col-md-4 \">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/servisnyj-tsentr-acer\">Сервисный центр <br />Acer</a></div>\n<div class=\"usluga-price\">от 300 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n<div class=\"col-md-4 \">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/servisnyj-tsentr-asus\">Сервисный центр <br />Asus</a></div>\n<div class=\"usluga-price\">от 300 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n<div class=\"col-md-4 \">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/servisnyj-tsentr-dell\">Сервисный центр <br />Dell</a></div>\n<div class=\"usluga-price\">от 300 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"col-md-4 \">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/servisnyj-tsentr-hp-hewlett-packard\">Сервисный центр HP<br />(Hewlett Packard)</a></div>\n<div class=\"usluga-price\">от 300 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n<div class=\"col-md-4 \">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/servisnyj-tsentr-lenovo\">Сервисный центр <br />Lenovo</a></div>\n<div class=\"usluga-price\">от 300 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n<div class=\"col-md-4 \">\n<div class=\"usluga\">\n<div class=\"usluga-title\"><a href=\"/servisnyj-tsentr-sony\">Сервисный центр <br />Sony</a></div>\n<div class=\"usluga-price\">от 300 грн</div>\n<a class=\"usluga-button\" data-toggle=\"modal\" data-target=\"#myModal\">Заказать</a></div>\n</div>\n</div>\n<div class=\"clearfix\">&nbsp;</div>\n<p>Наш офис находится недалеко от станции метро Лукьяновка, также мы работаем с районами Шулявская, КПИ (Политехнический институт), Дорогожичи, Сырецкая, где вы самостоятельно можете сдать свой ноут в ремонт.</p>\n<p>Чтобы вызвать мастера по ремонту ноутбуков, позвоните нам по указанным телефонным номерам или оставьте заявку на сайте.</p></div>\n</div></div></div></div>\n</div></div></section>",
     "meta": {
-      "title": "Ремонт 1123312",
-      "description": "Авторизованный сервисный i t.d."
+      "title": "Ремонт ноутбуков",
+      "description": "Ремонт ноутбуков Авторизованный сервисный i t.d."
     },
+    "img": "2.svg",
     "list-service-menu": [
       {
         "id": 1,
         "title": "Чистка ноутбука от пыли",
         "slug": "chistka-noutbuka-ot-pyli",
+        "content": "Введите текст для страницы \"Чистка ноутбука от пыли\" \n <ul>\n    <li><a href=\"/remont-kompyutepov\">Ремонт персональных компьютеров</a>.</li>\n    <li><a href=\"/remont-noutbukov\">Ремонт ноутбуков</a>.</li>\n    <li><a href=\"/remont-monitorov\">Ремонт мониторов</a>.</li>\n    <li><a href=\"/nastrojka-po\">Установка и обновление ПО</a>.</li>\n    <li>Быстрая компьютерная помощь на дому частным клиентам.</li>\n    <li>Профессиональная компьютерная помощь фирмам и организациям с выездом специалиста в офис.</li>\n    <li><a href=\"/remont-kompyutepov/modernizatsiya-kompyutera\">Модернизация (апгрейд)</a> и настройка компьютерной техники.</li>\n    </ul>\nNisi ad incidunt culpa illum, placeat sequi ipsam ab iure atque aliquid soluta quibusdam eligendi nulla repellat harum. Eius dignissimos delectus eaque ducimus, cum commodi maxime eum nesciunt pariatur est a, dolores asperiores magnam velit blanditiis nisi dolorum et! Pariatur dolores eaque excepturi! Magnam eius accusamus commodi sapiente cumque veritatis error natus excepturi iure. Error at exercitationem aliquid sint quam libero explicabo dolorem obcaecati accusamus commodi nobis a sed laboriosam, quibusdam dolores eveniet numquam sunt rem deleniti, dicta doloribus? Dolor nihil incidunt dolorem quibusdam aliquam assumenda dignissimos, voluptate cupiditate quia illo ad qui commodi maxime magni accusamus ipsam sunt recusandae. Nulla, tempora! Cum ipsum dolores, aliquam quam, maiores incidunt consequatur, nemo quisquam illum atque id voluptatem error natus sapiente modi doloremque at! Nostrum repellendus omnis, quis, tenetur nihil et tempora quisquam soluta vitae porro, neque eum beatae commodi alias pariatur. Amet, vel minus eum ducimus accusamus mollitia ad quasi asperiores pariatur corporis veniam nihil aperiam consectetur ipsa error laborum sequi officia. Perferendis nobis ad illum optio possimus, maiores animi praesentium nihil, fuga amet reiciendis laboriosam fugiat necessitatibus architecto? Dignissimos quidem itaque expedita culpa debitis natus reprehenderit nihil, placeat possimus excepturi nostrum eum quibusdam omnis. Officiis, totam impedit! Non beatae explicabo modi assumenda. Porro iste suscipit qui amet? Eaque facilis omnis esse consectetur, asperiores ratione quasi sunt pariatur illum recusandae odit amet mollitia doloremque. Eaque maiores sunt eligendi veniam, totam doloremque voluptatibus iste non quisquam neque id recusandae fugiat maxime animi distinctio illum sed voluptas sapiente, exercitationem impedit. Quaerat doloremque suscipit sed, ad perferendis nesciunt officia, quisquam ab voluptatum dignissimos repudiandae odio vel quo. Qui sed illo fugiat repudiandae hic voluptate soluta officia impedit ea odit deserunt ex reprehenderit corrupti praesentium cupiditate fuga sequi, commodi dolore harum? Omnis autem saepe aut repudiandae, dolores minus, libero adipisci ea aliquam corporis tempora vel recusandae beatae praesentium facere eligendi perferendis sequi! Necessitatibus quaerat similique ullam error accusantium aliquid iure eligendi. Fugit dignissimos exercitationem amet ipsa atque ullam blanditiis autem facere quae in, saepe explicabo maxime a excepturi necessitatibus dicta iusto fugiat eos deserunt quos commodi totam earum dolorem voluptates! Amet voluptate similique, animi cumque facilis pariatur.",
+        "meta": {
+          "title": "Чистка ноутбука от пыли",
+          "description": "Авторизованный сервисный  \"Чистка ноутбука от пыли\""
+        }
+      },
+      {
+        "title": "Ремонт залитого ноутбука",
+        "slug": "remont-zalitogo-noutbuka",
+        "id": 2,
         "content": "",
         "meta": {
-          "title": "Ремонт 1123312",
-          "description": "Авторизованный сервисный i t.d."
+          "title": "",
+          "description": ""
         }
       }
     ],
@@ -66,10 +88,40 @@
         "id": 1,
         "title": "Ремонт ноутбуков Acer",
         "slug": "remont-noutbukov-acer",
-        "content": "Введите текст для страницы \"Ремонт ноутбуков Acer\"",
+        "content": "Введите текст для страницы \"Ремонт ноутбуков Acer\" ",
         "meta": {
           "title": "Ремонт 1123312",
           "description": "Авторизованный сервисный i t.d."
+        }
+      },
+      {
+        "id": 2,
+        "title": "Ремонт ноутбуков Macbook",
+        "slug": "remont-noutbukov-macbook",
+        "content": "Ремонт ноутбуков Macbook",
+        "meta": {
+          "title": "Ремонт ноутбуков Macbook",
+          "description": "Авторизованный сервисный Ремонт ноутбуков Macbook"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Ремонт ноутбуков Asus",
+        "slug": "remont-noutbukov-asus",
+        "content": "Ремонт ноутбуков Asus",
+        "meta": {
+          "title": "Ремонт ноутбуков Asus",
+          "description": "Авторизованный сервисный i Ремонт ноутбуков Asus"
+        }
+      },
+      {
+        "id": 4,
+        "title": "Ремонт ноутбуков Dell",
+        "slug": "remont-noutbukov-dell",
+        "content": "Ремонт ноутбуков Dell",
+        "meta": {
+          "title": "Ремонт ноутбуков Dell",
+          "description": "Авторизованный сервисный Ремонт ноутбуков Dell"
         }
       }
     ]
@@ -77,6 +129,7 @@
   "remont-monitorov": {
     "title": "Ремонт мониторов",
     "slug": "remont-monitorov",
+    "img": "",
     "content": "",
     "meta": {
       "title": "Ремонт 1123312",
@@ -98,6 +151,7 @@
   "nastrojka-po": {
     "title": "Настройка ПО",
     "slug": "nastrojka-po",
+    "img": "",
     "content": "",
     "meta": {
       "title": "Ремонт 1123312",
@@ -119,47 +173,49 @@
   "contacts": {
     "title": "Контакты",
     "slug": "kontakty",
-    "content": "фыв",
+    "img": "",
     "meta": {
-      "title": "Ремонт 1123312",
-      "description": "Авторизованный сервисный i t.d."
-    }
+      "title": "Контакты",
+      "description": "Контакты desc"
+    },
+    "content": "<div itemprop=\"articleBody\">\n    <h1 class=\"mgood_title\">Контактная информация</h1>\n<p><b>По всем интересующим вопросам Вы можете обратиться за консультацией к нашим специалистам:<br /><br /></b></p>\n<div class=\"row\">\n<div class=\"col-md-6\">\n<table style=\"width: 100%;\">\n<tbody style=\"background-color: #ffd400;\">\n<tr>\n<td style=\"padding: 10px 15px; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 16px; line-height: normal; border-right: 5px dotted #ffffff; height: 100%; color: #000;\"><b>Отдел обработки заказов:</b></td>\n<td style=\"font-style: normal; font-variant: normal; font-stretch: normal; font-size: 16px; line-height: 2; padding: 10px 0px 10px 10px; color: #000; font-weight: bold;\">\n<div><span style=\"font-size: 16px; font-weight: normal;\">(044)&nbsp;</span>392-92-28, <span style=\"font-size: 16px; font-weight: normal;\">(050)</span>&nbsp;204-63-11 <br /> <span style=\"font-size: 16px; font-weight: normal;\">(097)</span>&nbsp;508-33-02, <span style=\"font-size: 16px; font-weight: normal;\">(063)</span>&nbsp;938-36-72</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"col-md-6\">\n<table style=\"width: 100%;\">\n<tbody style=\"background-color: #ffd400;\">\n<tr>\n<td style=\"padding: 10px 15px; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 16px; line-height: normal; border-right: 5px dotted #ffffff; height: 100%; color: #000;\"><b>Адрес сервиса:</b></td>\n<td style=\"font-style: normal; font-variant: normal; font-stretch: normal; font-size: 16px; line-height: 2; padding: 10px 0px 10px 10px; color: #000; font-weight: bold;\">\n<div><span style=\"background-color: transparent;\"> Украина, Киев, 04119, <br />ул. Деревлянская 20/2, офис 25 </span></div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"col-md-6\">&nbsp;</div>\n</div>\n<div class=\"row\">\n\n<div class=\"col-md-6\">\n    <table style=\"width: 100%;\">\n    <tbody style=\"background-color: #ffd400;\">\n    <tr>\n    <td style=\"padding: 10px 15px; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 16px; line-height: normal; border-right: 5px dotted #ffffff; height: 100%; color: #000;\"><b>График работы офиса:</b></td>\n    <td style=\"font-style: normal; font-variant: normal; font-stretch: normal; font-size: 16px; line-height: 2; padding: 10px 0px 10px 10px; color: #000; font-weight: bold;\">\n    <div><span style=\"font-size: 16px; font-weight: normal;\">Пн-Пт:&nbsp;</span>с 9:00 до 18:00 <br /><span style=\"font-size: 16px; font-weight: normal;\">Обед:</span>&nbsp;с 13:00 до 14:00 <br /> <span style=\"font-size: 16px; font-weight: normal;\">Сб-Вс:</span>&nbsp;выходной</div>\n    </td>\n    </tr>\n    </tbody>\n    </table>\n</div>\n\n<div class=\"col-md-6\">\n<table style=\"width: 100%;\">\n<tbody style=\"background-color: #ffd400;\">\n<tr>\n<td style=\"padding: 10px 15px; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 16px; line-height: normal; border-right: 5px dotted #ffffff; height: 100%; color: #000;\"><b>Принимаем заказы ONLINE</b></td>\n<td style=\"font-style: normal; font-variant: normal; font-stretch: normal; font-size: 16px; line-height: 2; padding: 10px 0px 10px 10px; color: #000; font-weight: bold;\">\n<div><span style=\"background-color: transparent;\"> круглосуточно </span></div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n</div>",
+    "list-brands-menu": []
   },
   "main-list": {
-    "content": "asd",
+    "content": "<div class=\"custom\"  >\n\t<h1>Ремонт компьютеров и ноутбуков - IT911</h1>\n    <p>Наш компьютерный сервис в Киеве – это коллектив специалистов, которые помогут с решением любых проблем, связанных с ремонтом и настройкой компьютерной техники. <strong>Мы гарантируем профессиональный подход</strong>, высокий уровень качества выполненных работ, минимальные сроки и доступные цены.</p>\n    <h2>Особенности работы и услуги, предоставляемые нашим сервисным центром</h2>\n    <p>Поломка персонального компьютера или ноутбука – это всегда неприятно, особенно, если речь идет о неисправностях в офисе или на производстве, когда весь рабочий процесс находится под угрозой, а фирма начинает нести убытки. <strong>Профессиональная компьютерная помощь с выездом на дом или в офис</strong> специалистов нашего сервисного центра станет лучшим решением возникших проблем с вашей техникой. Многолетний опыт работы, специальная подготовка сотрудников и наличие мощной собственной ремонтной базы со всем необходимым оборудованием позволяет нашему сервисному центру «Компьютерная Помощь it911» оперативно решать любые проблемы, связанные с ремонтом, модернизацией или настройкой компьютеров.</p>\n    <p>В рамках своей деятельности мы оказываем следующие виды услуг:</p>\n    <ul>\n    <li><a href=\"/remont-kompyutepov\">Ремонт персональных компьютеров</a>.</li>\n    <li><a href=\"/remont-noutbukov\">Ремонт ноутбуков</a>.</li>\n    <li><a href=\"/remont-monitorov\">Ремонт мониторов</a>.</li>\n    <li><a href=\"/nastrojka-po\">Установка и обновление ПО</a>.</li>\n    <li>Быстрая компьютерная помощь на дому частным клиентам.</li>\n    <li>Профессиональная компьютерная помощь фирмам и организациям с выездом специалиста в офис.</li>\n    <li><a href=\"/remont-kompyutepov/modernizatsiya-kompyutera\">Модернизация (апгрейд)</a> и настройка компьютерной техники.</li>\n    </ul>\n    <p><strong>Низкие цены на ремонт компьютеров в сервисе it911 </strong>и высокий уровень качества позволит вам восстановить работоспособность своей техники без ущерба для кошелька. Вне зависимости от того, будет ли это быстрая компьютерная помощь на дому, в офисе или сервисном центре, наши инженеры проведут бесплатную профессиональную диагностику, оперативно обнаружат поломку и определят стратегию ремонта компьютера. После согласования всех рабочих нюансов с клиентом, специалисты нашей компании быстро отремонтируют вашу технику и дадут гарантию на все проделанные работы, а также на восстановленные или замененные комплектующие.</p>\n    <p>Воспользоваться профессиональной компьютерной помощью в Киеве могут жители любого района. Для этого достаточно просто вызвать нашего специалиста на дом или в офис. А если вы проживаете или работаете около станций метро Шулявская, Дорогожичи, Политехнический институт (Политех), Лукьяновская, Сырец, то можете самостоятельно принести в наш сервисный центр неисправное устройство в любое удобное для вас время, не дожидаясь приезда специалиста. Тем самым <strong>вы сэкономите свое время и деньги</strong>, ведь по статистике <strong>большинство несложных неисправностей устраняется в течение часа</strong>, и вы сразу сможете забрать отремонтированную технику.</p>\n    <h2>Пять причин воспользоваться профессиональной компьютерной помощью в Киеве от сервисного центра it911</h2>\n    <p>Преимущества обращения в наш компьютерный сервисный центр:</p>\n    <ol>\n    <li>Мы оказываем любые услуги, связанные с диагностикой, настройкой, ремонтом и обслуживанием компьюетров на профессиональном уровне.</li>\n    <li>Мы используем в работе только оригинальные запчасти и комплектующие или их лицензированные аналоги.</li>\n    <li>Мы работаем как с частными клиентами, так и с организациями.</li>\n    <li>Мы выполняем все работы в минимальные сроки.</li>\n    <li>Мы всегда даем объективную оценку, предлагаем оптимальное решение и гарантируем результат.</li>\n    </ol>\n    <p>Чтобы воспользоваться качественными услугами частного компьютерного сервиса или вызвать специалиста в офис, <strong>позвоните нам по указанным телефонным номерам</strong> или оставьте заявку на сайте. Наш специалист перезвонит вам в ближайшее время, уточнит все рабочие нюансы и примет заявку на ремонт компьютерной техники.</p>\n</div>",
     "items": [
       {
-        "title": "Гарантийный ремонт",
-        "slug": "wewe",
-        "price": "123",
+        "title": "100% ГАРАНТИЯ НА НАШУ РАБОТУ",
+        "slug": "",
+        "price": "",
         "img": "1.svg",
         "id": 1
       },
       {
-        "title": "Ремонт компьютеров",
-        "slug": "we",
-        "price": "200",
+        "title": "БЕСПЛАТНЫЙ ВЫЗОВ МАСТЕРА",
+        "slug": "",
+        "price": "",
         "img": "2.svg",
         "id": 2
       },
       {
-        "title": "qw",
-        "slug": "ww",
-        "price": "ww",
+        "title": "ВЫЕЗД В ТЕЧЕНИЕ ЧАСА",
+        "slug": "",
+        "price": "",
         "img": "3.svg",
         "id": 3
       },
       {
-        "title": "Преимущество 1",
+        "title": "ЛЮБАЯ ФОРМА ОПЛАТЫ",
         "slug": "",
         "price": "",
-        "img": "1.svg",
+        "img": "3.svg",
         "id": 4
       }
     ],
     "meta": {
       "title": "Главная страница",
-      "description": "Главная "
+      "description": "Главная saasasd "
     }
   }
 }

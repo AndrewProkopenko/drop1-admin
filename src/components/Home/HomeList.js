@@ -4,8 +4,7 @@ import axios from '../../libs/axios'
 import SaveIcon from '@material-ui/icons/Save';
 import DeleteIcon from '@material-ui/icons/Delete';
 import { 
-    Grid,
-    Paper, 
+    Grid, 
     FormGroup, 
     TextField, 
     Button , 
@@ -24,7 +23,7 @@ function HomeList () {
 
     let [content, setContent] = React.useState([])
     let [services, setServices] = React.useState([])
-    let [isSuccessSave, setIsSuccessSave] = React.useState(false)
+
     
     let [newServTitle, setNewServTitle] = React.useState('')
     let [newServSlug, setNewServSlug] = React.useState('')
@@ -33,6 +32,9 @@ function HomeList () {
 
     let [newMetaTitle, setNewMetaTitle] = React.useState('')
     let [newMetaDesc, setNewMetaDesc] = React.useState('')
+
+     
+    let [isSuccessSave, setIsSuccessSave] = React.useState(false) 
     
     React.useEffect( () => {
         axios.get('/main-list')
@@ -103,7 +105,7 @@ function HomeList () {
          
         axios.put('/main-list', sentData)
         .then( () => {
-            setIsSuccessSave(true)
+            setIsSuccessSave(true) 
             setNewServTitle('')
             setNewServSlug('')
             setNewServPrice('')
@@ -220,7 +222,7 @@ function HomeList () {
             </Grid>
             <Divider/>
             <Grid container spacing={3}> 
-                <Grid item xs={12} lg={6} > 
+                <Grid item xs={12} lg={6} className="mb-3"> 
                     <Typography variant={"h6"}>Наши преимущества</Typography> 
                      
                    
@@ -231,7 +233,7 @@ function HomeList () {
                             <TextField type='text'
                                     required
                                     variant="outlined"
-                                    label='Введите название услуги'
+                                    label='Введите название преимущества'
                                     value={newServTitle}
                                     
                                     onChange={(e)=>{ setIsSuccessSave(false); setNewServTitle(e.target.value)}}
@@ -260,7 +262,17 @@ function HomeList () {
                                     <h6 className={classes.label}>Выбрано: {file.name}</h6> :
                                     <span>Примечание: для выбора картинки <br/> доступен только формат svg</span>
                                 }
-                                
+                                {
+                                    file.name && file.name.length > 0 &&
+                                    <Button 
+                                        variant="outlined"  
+                                        color='secondary' 
+                                        component="div"
+                                        onClick={() => { setFile('') }}
+                                    >
+                                        Удалить картинку
+                                    </Button>
+                                }
                            </div>
                         </FormGroup>
                         
