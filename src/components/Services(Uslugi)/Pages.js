@@ -159,7 +159,7 @@ function Pages() {
             "id": newId, 
             "content": "",
             "meta": {
-                "title": "", 
+                "title": newBrandsTitle,
                 "description": ""
             }
         }
@@ -195,7 +195,7 @@ function Pages() {
             "id": newId, 
             "content": "", 
             "meta": {
-                "title": "", 
+                "title": newServiceTitle,
                 "description": ""
             }
         }

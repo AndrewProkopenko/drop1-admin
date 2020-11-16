@@ -149,12 +149,12 @@ function HomeList () {
                             }
                         <div className="img-cont ">
 
-                            <div className='img' style={{ 
-                                ['-webkitMask']: `url(./images/${item.img}) no-repeat center`,
-                                mask: `url(./images/${item.img}) no-repeat center`
-                            }}></div>
+                            {/*<div className='img' style={{ */}
+                            {/*    ['-webkitMask']: `url(./images/${item.img}) no-repeat center`,*/}
+                            {/*    mask: `url(./images/${item.img}) no-repeat center`*/}
+                            {/*}}></div>*/}
  
-                            {/* <img src='./images/3.svg' fill="#fff" alt='hi'/>  */}
+                             <img src={ window.location.origin + `/images/${item.img}`} style={{width: 50, height: 50}} alt='hi'/>
                             
                             {/* <svg><use xlinkHref="./images/3.svg"></use></svg> */}
                         </div>

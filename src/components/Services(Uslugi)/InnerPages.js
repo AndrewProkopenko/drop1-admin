@@ -63,8 +63,6 @@ function InnerPages() {
     let [isUnsavedMeta, setIsUnsavedMeta] = React.useState(false)
 
     document.title = metaTitle
-    
-    let ccc = React.createElement('div', null, content);
 
     function renderContent() { 
         let text = document.getElementById('content')
@@ -158,31 +156,32 @@ function InnerPages() {
         if(listBrands.length > 0) {
             newBasic["list-brands-menu"] =  listBrands  
         }
- 
+
+        if(listBrands.length > 0)
         for( let i = 0; i < basicData['list-brands-menu'].length; i++) { 
             if(basicData['list-brands-menu'][i].slug == page) {  
                 newBasic['list-brands-menu'][i] = newData
             }
         }
 
+        if(listServices.length > 0)
         for( let i = 0; i < basicData['list-service-menu'].length; i++) { 
             if(basicData['list-service-menu'][i].slug == page) {  
                 newBasic['list-service-menu'][i] = newData
             }
         }
         
-        console.log(category)
+        // console.log(category)
         // console.log(newBasic)
         axios.put(`/${category}`, newBasic)
             .then( () => {
-                setIsSuccessSave(true) 
+                setIsSuccessSave(true)
+                setIsUnsavedMeta(false)
             })
-            .then(()=>{
-                window.scrollTo({
-                    top: 0, 
-                    behavior: "smooth"
-                });
-            })
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
     }
 
     
@@ -284,11 +283,7 @@ function InnerPages() {
                     <div className='preview-container ml-1'>
                         <h3 className='preview-head'>Превью :</h3>
                         <Divider/>
-                        <div>{ccc}</div>
-                        
-                        
-                         
-                        <div id='content' dangerouslySetInnerHTML={{__html: content}}></div> 
+                        <div  dangerouslySetInnerHTML={{__html: content}}></div>
                     </div> 
                 </Grid>
             </Grid>

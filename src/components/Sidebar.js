@@ -119,6 +119,15 @@ function Sidebar() {
                                 <ListItemText primary={'Ремонт мониторов - Главная '} className={'pl-3'}/>
                             </ListItem>
                         </NavLink>
+                        {
+                            data['remont-monitorov']['list-service-menu'].map( (item) => (
+                                <NavLink key={item.id} exact to={`/content/inner-pages/remont-monitorov/${item.slug}`}>
+                                    <ListItem button>
+                                        <ListItemText primary={item.title} className={'pl-3'} />
+                                    </ListItem>
+                                </NavLink>
+                            ))
+                        }
                     </List>
                 </Collapse>
 
@@ -134,6 +143,15 @@ function Sidebar() {
                                 <ListItemText primary={'Настройка ПО - Главная '} className={'pl-3'} />
                             </ListItem>
                         </NavLink>
+                        {
+                            data['nastrojka-po']['list-service-menu'].map( (item) => (
+                                <NavLink key={item.id} exact to={`/content/inner-pages/nastrojka-po/${item.slug}`}>
+                                    <ListItem button>
+                                        <ListItemText primary={item.title} className={'pl-3'} />
+                                    </ListItem>
+                                </NavLink>
+                            ))
+                        }
                     </List>
                 </Collapse>
 
