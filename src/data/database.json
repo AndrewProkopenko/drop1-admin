@@ -288,7 +288,7 @@
   "remont-monitorov": {
     "title": "Ремонт мониторов",
     "slug": "remont-monitorov",
-    "img": "",
+    "img": "2.svg",
     "meta": {
       "title": "Ремонт мониторов",
       "description": "Авторизованный сервисный "
@@ -331,7 +331,7 @@
   "nastrojka-po": {
     "title": "Настройка ПО",
     "slug": "nastrojka-po",
-    "img": "",
+    "img": "1.svg",
     "meta": {
       "title": "Настройка ПО",
       "description": "Авторизованный сервисный i t.d."
