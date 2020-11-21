@@ -1,7 +1,5 @@
 import React from 'react';  
-import Drawer from '@material-ui/core/Drawer';
-import Button from '@material-ui/core/Button'; 
-import ListIcon from '@material-ui/icons/List';
+import Drawer from '@material-ui/core/Drawer'; 
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 
