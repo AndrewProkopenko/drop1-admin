@@ -1,8 +1,7 @@
 import React from 'react'
 
 import HomeList from "./HomeList" 
-
-import ElementCreator from '../../ElementCreator'
+ 
 
 import {
     Divider, 
@@ -15,10 +14,7 @@ function Home() {
 
     return (
             <div> 
-                {/* преимущества */}
-
-                <ElementCreator/>
-
+                {/* преимущества */}  
                 <HomeList/>
                 
                 <Divider/>
