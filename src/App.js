@@ -3,6 +3,7 @@
 import React from 'react'
 
 import './App.scss'
+import "./main.scss"
 
 import axios from 'axios'
 
